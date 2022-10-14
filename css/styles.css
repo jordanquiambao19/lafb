@@ -1,25 +1,41 @@
 body {
+    padding: 3%;
     text-align: center;
     font-family: 'Dancing Script', cursive;
 }
 h1 {
-    
+    padding: 10%;
     font-size: 5rem;
     font-weight: bold;
+}
+
+p {
+    padding-top: 7%;
+    font-size: 1.5rem;
+}
+
+
+.container {
+    margin-top: 10%;
+}
+
+.colored-section {
+    background-color: #E26868;
+}
+
+.logo {
+    width: 100%;
+}
+
+.nav-bar {
+    margin: 0 auto;
 }
 
 .nav-item {
     font-size: 1.5rem;
 }
 
-.container {
-    margin-top: 10%;
-}
 
-.logo {
-    width: 70%;
-}
-
-p {
-    font-size: 1.5rem;
+.navbar-custom {
+    background-color: #FF8787;
 }
