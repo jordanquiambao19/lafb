@@ -1,41 +1,77 @@
 body {
-    padding: 3%;
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
+  padding: 3%;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
 }
+
 h1 {
-    padding: 10%;
-    font-size: 5rem;
-    font-weight: bold;
+  font-size: 7rem;
+    padding: 12% 0 0;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h3 {
+  padding: 10%;
 }
 
 p {
-    padding-top: 7%;
-    font-size: 1.5rem;
-}
-
-
-.container {
-    margin-top: 10%;
+  padding: 7% 0;
+  font-size: 1.5rem;
 }
 
 .colored-section {
-    background-color: #E26868;
+  background-color: #e26868;
 }
 
 .logo {
-    width: 100%;
-}
-
-.nav-bar {
-    margin: 0 auto;
+  width: 100%;
 }
 
 .nav-item {
-    font-size: 1.5rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
 }
 
-
-.navbar-custom {
-    background-color: #FF8787;
+.navbar {
+  padding: 1% 3%;
+  background-color: white;
 }
+
+.nav-item:hover {
+  color: white;
+}
+
+.container-profile {
+    margin: 10% 0;
+    position: relative;
+}
+
+.baker-profile {
+    width: 100%;
+    margin: 10%;
+}
+
+.profile-text {
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 15%;
+}
+
+.heart-img {
+  width: 10%;
+  transform: rotate(-15deg);
+  vertical-align: text-top;
+}
+
+.container-logo {
+  margin:10% 0;
+  position: relative;
+}
+
+.logo-text {
+  position: absolute;
+}
+
